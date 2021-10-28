@@ -1,0 +1,141 @@
+.postShare{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: black;
+    overflow-y:scroll;
+    background-color: rgba(0, 0, 0, 0.7);
+    animation: fadeIn 0.3s;
+}
+@-webkit-keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.postShare__1{
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    /* height: 100%; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 30px;
+    margin: auto;
+    overflow: initial;
+}
+.postShare__1__head{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.postShare__1__head>h4{
+    font-size: 20px;
+    font-weight: 100;
+}
+.postShare__1__head>.MuiSvgIcon-root{
+    border-radius: 40px;
+    padding: 5px;
+    font-size: 40px;
+}
+.postShare__1__head>.MuiSvgIcon-root:hover{
+    background-color: rgb(236, 236, 236);
+}
+.postShare__1__mid{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.postShare__1__mid>h6{
+    margin-left: 10px;
+}
+.postShare__1__text{
+    margin: 0 20px;
+}
+.postShare__1__text>textarea{
+    width: 100%;
+    resize: none;
+    min-height: 100px;
+    outline-width: 0;
+    border: none;
+}
+.postShare__1__down{
+    padding: 20px;
+}
+.postShare__1__down__icon{
+    display: flex;
+}
+.postShare__1__down__icon>.MuiSvgIcon-root{
+    padding: 8px;
+    font-size: 45px;
+    border-radius: 50px;
+    color: rgb(110, 110, 110);
+    transition: 0.3s;
+}
+.postShare__1__down__icon>.MuiSvgIcon-root:hover{
+    background-color: rgb(236, 236, 236);
+    color: rgb(110, 110, 110);
+}
+.postShare__1__down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postShare__1__down__2{
+    border-left: 1px solid lightgray;
+    padding-left: 8px;
+    margin-left: 8px;
+}
+.postShare__1__down__com{
+    padding: 5px 10px ;
+    font-size: 13px;
+    border-radius: 50px;
+    color: rgb(110, 110, 110);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.postShare__1__down__com:hover{
+    background-color: rgb(236, 236, 236);
+    color: rgb(110, 110, 110);
+}
+.postShare__1__down__com>.MuiSvgIcon-root{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.postShare__1__down__com>.MuiSvgIcon-root:hover{
+    background-color: rgb(236, 236, 236);
+    color: rgb(110, 110, 110);
+}
+.postShare__1__down__post>button{
+    outline-width: 0;
+    border-radius: 40px;
+    border: none;
+    padding: 5px 15px;
+    background-color: rgb(0, 105, 211);
+    color: white;
+}
+.postShare__1__down__1{
+    display: flex;
+    align-items: center;
+}
+.postShare__1__imageShare{
+    width: 100%;
+}

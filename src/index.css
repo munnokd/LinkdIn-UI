@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+body,html{
+    background-color: rgb(231, 231, 231);
+}

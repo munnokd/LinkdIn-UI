@@ -1,0 +1,86 @@
+.mid{
+    flex: 1;
+    margin-right: 15px;
+    width: 100%;
+}
+
+.mid__share{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 0.5px solid rgb(209, 209, 209);
+    margin-bottom: 10px;
+}
+.mid__share__up{
+    display: flex;
+}
+.mid__share__up>button{
+    margin-left: 10px;
+    border: 0.8px solid gray;
+    flex: 1;
+    color: rgb(105, 105, 105);
+    border-radius: 40px;
+    outline-width: 0;
+    padding: 10px 20px;
+    transition: 0.2s;
+    margin-bottom: 4px;
+    background-color: white;
+}
+.mid__share__up>button:hover{
+    background-color: rgb(236, 236, 236);
+}
+.mid__share__down{
+    display: flex;
+    justify-content: space-between;
+}
+.mid__down__icon{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    transition: 0.2s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.mid__down__icon:hover{
+    background-color: rgb(236, 236, 236);
+}
+.mid__down__icon>p{
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+#mid__down__icon1>.MuiSvgIcon-root{
+    color: dodgerblue;
+}
+
+#mid__down__icon2>.MuiSvgIcon-root{
+    color: rgb(80, 211, 80);
+}
+
+#mid__down__icon3>.MuiSvgIcon-root{
+    color: rgb(253, 207, 0);
+}
+#mid__down__icon4>.MuiSvgIcon-root{
+    color: rgb(255, 173, 207);
+}
+@media(min-width:769px){
+    .mid{
+        max-width: 617px;
+        width: 100%;
+    }
+}
+@media(max-width:768px){
+    .mid{
+        margin-right: 0;
+        width: 100%;
+    }
+    .mid__share__down{
+        display: flex;
+        justify-content:center;
+    }
+    .mid__down__icon{
+        padding: 7px 7px;
+    }
+    .mid__down__icon>p{
+        margin-left: 5px;
+    }
+}

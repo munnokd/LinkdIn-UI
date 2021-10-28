@@ -1,0 +1,162 @@
+.signIn{
+    background-color: white;
+}
+.signIn__head{
+    margin: auto;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: 1128px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.signIn__head>a>img{
+    width: 110px;
+    height: 25px;
+}
+@media(min-width:400px){
+    .signIn__head>a>img{
+        width: 150px;
+        height: 40px;
+    }
+}
+.join{
+    font-size: 17px;
+    padding: 7px 8px;
+    cursor: pointer;
+    margin-right: 10px;
+    color: rgb(99, 99, 99);
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+.join:hover{
+    color: black;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.sign{
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px 12px;
+    color: rgb(0, 93, 185);
+    font-weight: 500;
+    cursor: pointer;
+    border: 1.3px solid rgb(0, 93, 185);
+    box-shadow:inset 0 0 0 0.1px rgb(0, 93, 185);
+    transition: 0.4s;
+    text-decoration: none;
+}
+.sign:hover{
+    background-color: rgb(215, 236, 255);
+    box-shadow:inset 0 0 0 1.3px rgb(0, 93, 185);
+}
+.signIn__sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signIn__sec__{
+    display: flex;
+    align-content: flex-start;
+    display: flex;
+    padding: 60px 0;
+    padding-bottom: 12px;
+    padding-top: 0px;
+    position: relative;
+    width: 100%;
+    max-width: 1350px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.signIn__sec__>h1{
+    padding-bottom: 0;
+    padding-left: 10px;
+    z-index: 1;
+    width: 45%;
+    color:rgb(0, 93, 185) ;
+    font-size: 56px;
+    font-weight:lighter;
+    line-height: 70px;
+}
+.signIn__sec__>img{
+    z-index: 0;
+    width: 700px;
+    /* position: absolute;
+    bottom:-200px ;
+    right: -150px; */
+}
+.signIn__sec__google{
+    justify-content: center;
+    width: 300px;
+    margin: 50px;
+    margin-top: 50px;
+}
+.signIn__sec__google__photo{
+    z-index: 3;
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: rgb(0, 93, 185);
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 20px;
+    border: 1.3px solid rgb(0, 93, 185);
+    box-shadow:inset 0 0 0 0.1px rgb(0, 93, 185);
+    transition: 0.4s;
+}
+.signIn__sec__google__photo:hover{
+    background-color: rgb(215, 236, 255);
+    box-shadow:inset 0 0 0 1.3px rgb(0, 93, 185);
+}
+.signIn__sec__google__photo>img{
+    width: 20px;
+    margin-right: 10px;
+}
+@media (max-width:1294px) {
+    .signIn__sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .signIn__sec__{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .signIn__sec__>img{
+        width: 400px;
+    }
+}
+@media(max-width:768px){
+    .signIn__sec{
+        min-height: 0px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .signIn__sec__{
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .signIn__sec__>h1{
+        text-align: center;
+        font-size: 25px;
+        line-height: 2;
+        width: 100%;
+    }
+    .signIn__sec__>img{
+        top: 230px;
+        width: 300px;
+        position: initial;
+    }
+    
+
+}

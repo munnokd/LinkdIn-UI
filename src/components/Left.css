@@ -1,0 +1,128 @@
+.left{
+    grid-area: left;
+    width: 100%;
+}
+.left__card{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    border: 0.5px solid rgb(209, 209, 209);
+    position: relative;
+}
+.left__card__info{
+    align-items: center;
+    padding: 10px;
+    word-wrap: break-word;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    word-break:break-word;
+}
+.left__card__background{
+    background:url('/src/images/card-bg.svg');
+    background-position: center;
+    background-size: 462px;
+    margin: -12px -12px 0;
+    height: 58px;
+}
+.left__card__info>a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left__card__add>.MuiSvgIcon-root{
+    color: rgb(47, 117, 223);
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 20px;
+}
+.left__card__add>.MuiSvgIcon-root:hover{
+    color: rgb(47, 117, 223);
+    background-color: rgb(196, 225, 255);
+}
+.left__card__save{
+    display: flex;
+    flex-direction: column;
+}
+.left__card__text{
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 0.2px solid rgb(228, 228, 228);
+    transition: 0.15s;
+}
+.left__card__text:hover{
+    color: black;
+    background-color: rgb(236, 236, 236);
+}
+.left__card__book:hover{
+    color: black;
+    background-color: rgb(236, 236, 236);
+}
+.left__card__book{
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+    border-bottom: 0.2px solid rgb(228, 228, 228);
+    transition: 0.15s;
+}
+.left__card__span{
+    display: flex;
+    color: gray;
+}
+.left__card__span>p{
+    color: rgb(10, 91, 214);
+    margin-left: 20px;
+}
+.left__nano{
+    background-color: white;
+    border-radius: 10px;
+    display:flex;
+    font-size: 13px;
+    color:rgb(10, 91, 214) ;
+    border: 0.5px solid rgb(209, 209, 209);
+    flex-direction: column;
+}
+.left__nano>a{
+    cursor: pointer;
+    padding: 8px 10px ;
+}
+.left__nano>a>.MuiSvgIcon-root{
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.left__nano>a>.MuiSvgIcon-root:hover{
+    background-color: rgb(236, 236, 236); 
+}
+.left__nano__more{
+    text-decoration: none;
+    display: flex;
+    border-radius: 0 0 10px 10px;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    border-top: 1px solid rgb(240, 233, 233);
+    color: gray;
+    transition: 0.2s;
+}
+.left__nano__more:hover{
+    background-color:rgb(236, 236, 236) ;
+    color: gray;
+}
+@media(min-width:769px){
+    .left{
+        width: 100%;
+        max-width: 310px;
+    }
+}

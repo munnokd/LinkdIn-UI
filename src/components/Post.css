@@ -1,0 +1,120 @@
+.post{
+    background-color: white;
+    border-radius: 10px;
+    margin:  10px 0;
+    padding: 5px 10px;
+    border: 0.5px solid rgb(209, 209, 209);
+}
+.post__head{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.post__head>p{
+    font-size: 15px;
+    color: black;
+    margin-top: 8px;
+}
+.post__head__info{
+    display: flex;
+    justify-content: space-between;
+}
+.post__head__avtar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.post__head__title{
+    margin-left:10px ;
+    text-align: start;
+}
+.post__head__title>h5{
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.post__head__title>h5:hover{
+    color: dodgerblue;
+    text-decoration: underline;
+}
+.post__head__title>p{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.post__head__info>.MuiSvgIcon-root{
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 35px;
+    cursor: pointer;
+}
+.post__head__info>.MuiSvgIcon-root:hover{
+    background-color: rgb(236, 236, 236);
+}
+.post__image{
+    cursor: pointer;
+    margin-left: -9px;
+    margin-right: -9px;
+    margin-bottom: 10px;
+}
+.post__image>img{
+    width: 100%;
+}
+.post__bottom{
+    margin-bottom: 10px;
+}
+.post__count{
+    display: flex;
+    align-items: center;
+}
+.post__count>p{
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.post__count>p:hover{
+    color: dodgerblue;
+    text-decoration: underline;
+}
+.post__count>.MuiSvgIcon-root{
+    background-color: dodgerblue;
+    color: rgb(206, 222, 255);
+    border-radius: 50px;
+    margin-right: 5px;
+    padding: 3px;
+    font-size: 20px;
+}
+.post__count>.MuiSvgIcon-root:hover{
+    background-color: dodgerblue;
+    color: rgb(206, 222, 255);
+}
+.post__like{
+    display: flex;
+}
+.post__like__{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.post__like__:hover{
+    background-color:rgb(236, 236, 236) ;
+}
+@media(max-width:375px){
+    .post__like__{
+        display: flex;
+        justify-content: center;
+        padding: 10px 3px;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+}
+.postload{
+    text-align: center;
+}
+.postload__image{
+    width: 30px;
+}

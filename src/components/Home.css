@@ -1,0 +1,26 @@
+.home{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    position: relative;
+}
+.home__right{
+    display:flex;
+}
+@media(max-width:1072px){
+    .home__right{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:768px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        margin: 0 5px ;
+        margin-top: 20px;
+    }
+}
